@@ -1,0 +1,17 @@
+<head>
+  <title>resolutions</title>
+</head>
+
+<body>
+  <ul>
+    {{# each resolutions}}
+      {{> dude}}
+    {{/each}}
+    
+  </ul>
+</body>
+
+
+<template name="dude">
+  <li>{{title}}</li>
+</template>
